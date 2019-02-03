@@ -1,6 +1,6 @@
 {
   "name": "evanribey-website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The homepage for evanribey.com",
   "main": "app.js",
   "scripts": {

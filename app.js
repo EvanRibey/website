@@ -2,8 +2,8 @@ const Koa = require('koa');
 const views = require('koa-views');
 const serve = require('koa-static');
 const Router = require('koa-router');
-const webpack = require('webpack');
-const webpackDevMiddleware = require('koa-webpack-dev-middleware/src')
+// const webpack = require('webpack');
+// const webpackDevMiddleware = require('koa-webpack-dev-middleware/src')
 const path = require('path');
 
 const app = new Koa();

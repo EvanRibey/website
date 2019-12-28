@@ -148,7 +148,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 400px;
+  min-height: 600px;
   height: 100vh;
 
   @media screen and (max-width: @sm) {

@@ -158,8 +158,8 @@ export default {
   &__img {
     width: 20vw;
     height: 20vw;
-    min-width: 1.8rem;
-    min-height: 1.8rem;
+    min-width: 18rem;
+    min-height: 18rem;
     margin-right: 35px;
     border: 1px solid #2e2e2e;
     box-shadow: 0 1px 8px #999;

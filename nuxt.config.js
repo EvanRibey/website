@@ -11,7 +11,8 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'A Full-Stack Developer with a passion for powerlifting, logic puzzles, coffee, and cooking',
+        content:
+          'A Full-Stack Developer with a passion for powerlifting, logic puzzles, coffee, and cooking',
       },
       {
         hid: 'keywords',
@@ -36,9 +37,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [
-    '~/assets/css/app.less',
-  ],
+  css: ['~/assets/css/app.less'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -48,7 +47,7 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
   ],
   /*
    ** Nuxt.js modules
@@ -58,7 +57,7 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
   ],
   /*
    ** Axios module configuration
@@ -72,6 +71,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
-  }
-}
+    extend(config, ctx) {},
+  },
+};

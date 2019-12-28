@@ -5,4 +5,4 @@ The homepage for my website. This website is built as a quick one pager with lin
 Future updates are to include my portfolio, and other probjects that I have worked on, as well as a more extensive information page, and contact page.
 
 # Framework
-The website is built using the KoaJS framework combined with Hyperapp to provide basic UI development. While both overkill for such a small website, they will both be the tools I will be using in future updates to this website.
+The website is built using the NuxtJS framework which uses VueJS as a front end website builder. It's fairly lightweight and will allow me to build more off of the website going forward.

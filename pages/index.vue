@@ -242,7 +242,7 @@ export default {
       @media screen and (max-width: @sm) {
         padding-left: 0;
         text-align: center;
-        max-width: 37.7rem;
+        max-width: 27.7rem;
       }
     }
 

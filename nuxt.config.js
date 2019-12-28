@@ -4,17 +4,30 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Evan Ribey | Full-Stack Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
-      }
+        content: 'A Full-Stack Developer with a passion for powerlifting, logic puzzles, coffee, and cooking',
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'NodeJS, website, developer, Kitchener, Waterloo',
+      },
+      {
+        author: 'author',
+        name: 'author',
+        content: 'Evan Ribey',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'canonical', href: 'https://www.evanribey.com' },
+    ],
   },
   /*
    ** Customize the progress-bar color
@@ -23,7 +36,9 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    '~/assets/css/app.less',
+  ],
   /*
    ** Plugins to load before mounting the App
    */
